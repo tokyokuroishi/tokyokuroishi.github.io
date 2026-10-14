@@ -21,7 +21,7 @@
 (function () {
   "use strict";
 
-  var UPDATED = "2026-10-13";
+  var UPDATED = "2026-10-14";
 
   var LABEL = {
     en: { updated: "Last updated", source: "Source", why: "Why a long-horizon holder should care", empty: "No entries yet." },
@@ -31,6 +31,23 @@
 
   /* d = date of the statement (YYYY-MM-DD), t = quote, why = this site's reading */
   var VOICES = [
+    {
+      d: "2026-10-13",
+      who: { en: "Elon Musk", ja: "イーロン・マスク", ko: "일론 머스크" },
+      role: { en: "CEO, SpaceX and Tesla", ja: "SpaceX・Tesla CEO", ko: "SpaceX·테슬라 CEO" },
+      where: { en: "Post on X", ja: "X への投稿", ko: "X 게시물" },
+      url: "https://www.benzinga.com/markets/tech/26/10/62347725/elon-musk-has-a-warning-for-ai-data-center-investors-says-funding-is-only-half-the-battle-spacex-has-a-super-cracked-team-even-we-find-it-very-difficult",
+      t: {
+        en: "Getting money to build complex hardware systems with massive power, cooling & networking is not the same as doing it.",
+        ja: "巨大な電力・冷却・ネットワークを伴う複雑なハードウェアシステムを作るための資金を得ることは、それを実際にやり遂げることとは違う。",
+        ko: "막대한 전력·냉각·네트워킹이 필요한 복잡한 하드웨어 시스템을 짓기 위해 돈을 마련하는 것은, 그것을 실제로 해내는 것과 같지 않다."
+      },
+      why: {
+        en: "A builder's warning to the people funding the build. Money raised for a data centre is a promise; the electricity, cooling and equipment that make it earn are a separate test, passed or failed years later. For someone holding for decades, the useful habit is to judge this build-out by what is switched on and earning, not by what has been announced or financed.",
+        ja: "建設する側から、資金を出す側への警告です。データセンターのために集めた資金は約束にすぎず、それを稼ぐ設備にする電力・冷却・機器は別の試験で、その合否が出るのは何年も後です。数十年単位で保有する人にとって役に立つのは、この建設を「発表された額」や「調達された額」ではなく、「実際に稼働して稼いでいるもの」で判断する習慣です。",
+        ko: "짓는 쪽이 돈을 대는 쪽에 보내는 경고입니다. 데이터센터를 위해 모은 돈은 약속일 뿐이고, 그것을 돈 버는 설비로 만드는 전력·냉각·장비는 별개의 시험이며 그 결과는 몇 년 뒤에야 나옵니다. 수십 년을 보유하는 사람에게 유용한 습관은 이 건설을 '발표된 금액'이나 '조달된 금액'이 아니라 '실제로 가동되어 돈을 벌고 있는 것'으로 판단하는 것입니다."
+      }
+    },
     {
       d: "2026-10-06",
       who: { en: "Lisa Su", ja: "リサ・スー", ko: "리사 수" },
