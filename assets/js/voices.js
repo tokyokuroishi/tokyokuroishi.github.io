@@ -21,7 +21,7 @@
 (function () {
   "use strict";
 
-  var UPDATED = "2026-09-12";
+  var UPDATED = "2026-10-14";
 
   var LABEL = {
     en: { updated: "Last updated", source: "Source", why: "Why a long-horizon holder should care", empty: "No entries yet." },
@@ -31,6 +31,57 @@
 
   /* d = date of the statement (YYYY-MM-DD), t = quote, why = this site's reading */
   var VOICES = [
+    {
+      d: "2026-10-13",
+      who: { en: "Elon Musk", ja: "イーロン・マスク", ko: "일론 머스크" },
+      role: { en: "CEO, SpaceX and Tesla", ja: "SpaceX・Tesla CEO", ko: "SpaceX·테슬라 CEO" },
+      where: { en: "Post on X", ja: "X への投稿", ko: "X 게시물" },
+      url: "https://www.benzinga.com/markets/tech/26/10/62347725/elon-musk-has-a-warning-for-ai-data-center-investors-says-funding-is-only-half-the-battle-spacex-has-a-super-cracked-team-even-we-find-it-very-difficult",
+      t: {
+        en: "Getting money to build complex hardware systems with massive power, cooling & networking is not the same as doing it.",
+        ja: "巨大な電力・冷却・ネットワークを伴う複雑なハードウェアシステムを作るための資金を得ることは、それを実際にやり遂げることとは違う。",
+        ko: "막대한 전력·냉각·네트워킹이 필요한 복잡한 하드웨어 시스템을 짓기 위해 돈을 마련하는 것은, 그것을 실제로 해내는 것과 같지 않다."
+      },
+      why: {
+        en: "A builder's warning to the people funding the build. Money raised for a data centre is a promise; the electricity, cooling and equipment that make it earn are a separate test, passed or failed years later. For someone holding for decades, the useful habit is to judge this build-out by what is switched on and earning, not by what has been announced or financed.",
+        ja: "建設する側から、資金を出す側への警告です。データセンターのために集めた資金は約束にすぎず、それを稼ぐ設備にする電力・冷却・機器は別の試験で、その合否が出るのは何年も後です。数十年単位で保有する人にとって役に立つのは、この建設を「発表された額」や「調達された額」ではなく、「実際に稼働して稼いでいるもの」で判断する習慣です。",
+        ko: "짓는 쪽이 돈을 대는 쪽에 보내는 경고입니다. 데이터센터를 위해 모은 돈은 약속일 뿐이고, 그것을 돈 버는 설비로 만드는 전력·냉각·장비는 별개의 시험이며 그 결과는 몇 년 뒤에야 나옵니다. 수십 년을 보유하는 사람에게 유용한 습관은 이 건설을 '발표된 금액'이나 '조달된 금액'이 아니라 '실제로 가동되어 돈을 벌고 있는 것'으로 판단하는 것입니다."
+      }
+    },
+    {
+      d: "2026-10-06",
+      who: { en: "Lisa Su", ja: "リサ・スー", ko: "리사 수" },
+      role: { en: "CEO, AMD", ja: "AMD CEO", ko: "AMD CEO" },
+      where: { en: "Speaking to reporters in Taipei", ja: "台北での記者団への発言", ko: "타이베이 기자단 발언" },
+      url: "https://www.benzinga.com/markets/prediction-markets/26/10/62190764/amd-ai-demand-lisa-su-supply",
+      t: {
+        en: "We're going to substantially increase our supply in 2027, but we can definitely use more.",
+        ja: "2027年には供給を大幅に増やすが、それでも、もっとあっても確実に使い切れる。",
+        ko: "2027년에는 공급을 대폭 늘리겠지만, 그보다 더 있어도 분명히 다 쓸 수 있다."
+      },
+      why: {
+        en: "Two months after saying demand was running above expectations (below), the constraint she names is supply, and the fix she names has a year on it. When the limit is how fast factories, memory and packaging can be built, the businesses that build them hold the scarce thing for now. Scarcity of that kind is also what invites the capacity that ends it, which is the other half of the next entry.",
+        ja: "需要が想定を上回っていると語った2か月後(下)、彼女が挙げた制約は供給で、その解決策には「2027年」という年が付いています。上限が工場・メモリ・パッケージングを建てる速さで決まるなら、今のところ希少なものを握っているのはそれを建てる側です。ただし、そうした希少性こそが、それを終わらせる設備投資を呼び込みます。それが次の項目のもう半分です。",
+        ko: "수요가 예상을 웃돈다고 말한 지 두 달 뒤(아래), 그가 든 제약은 공급이고 해법에는 '2027년'이라는 연도가 붙어 있습니다. 한계가 공장·메모리·패키징을 짓는 속도로 정해진다면, 지금 희소한 것을 쥐고 있는 쪽은 그것을 짓는 기업입니다. 다만 그런 희소성이야말로 그것을 끝낼 설비 투자를 불러들입니다. 그것이 다음 항목의 나머지 절반입니다."
+      }
+    },
+    {
+      d: "2026-09-23",
+      who: { en: "Jensen Huang", ja: "ジェンスン・ファン", ko: "젠슨 황" },
+      role: { en: "CEO, Nvidia", ja: "Nvidia CEO", ko: "엔비디아 CEO" },
+      where: { en: "The Ezra Klein Show (podcast)", ja: "ポッドキャスト「The Ezra Klein Show」", ko: "팟캐스트 'The Ezra Klein Show'" },
+      url: "https://finance.yahoo.com/technology/ai/articles/jensen-huang-says-ai-boom-132740720.html",
+      t: {
+        en: "At some point demand and supply will be inverted again. That's just the nature of markets.",
+        ja: "いずれ需要と供給はまた逆転する。それが市場というものだ。",
+        ko: "언젠가 수요와 공급은 다시 뒤집힌다. 그게 시장의 본성이다."
+      },
+      why: {
+        en: "The rarest kind of statement on this page: the person with the most to lose from a downturn saying one will come. He put it two or three years out, and that timing is the part to check later. For someone holding for decades the date matters less than the shape. A shortage that turns into a glut is the ordinary cycle of every capital-intensive industry, and prices paid at the peak of the shortage are the ones that take longest to earn back.",
+        ja: "このページで最も珍しい種類の発言です。下降局面で最も失うものが大きい人物が、それは来ると言っている。彼はそれを2〜3年先としており、後で確かめるべきはその時期です。数十年保有する人にとっては、時期よりも形のほうが重要です。品不足が供給過剰に変わるのは、あらゆる資本集約型産業のごく普通の循環であり、品不足のピークで払った価格ほど、取り戻すのに時間がかかります。",
+        ko: "이 페이지에서 가장 드문 종류의 발언입니다. 하강 국면에서 잃을 것이 가장 많은 인물이 그것이 온다고 말하고 있습니다. 그는 그 시점을 2~3년 뒤로 잡았고, 나중에 확인할 것은 바로 그 시점입니다. 수십 년을 보유하는 사람에게는 시점보다 모양이 더 중요합니다. 품귀가 공급 과잉으로 바뀌는 것은 모든 자본집약 산업의 평범한 순환이며, 품귀의 정점에서 치른 가격일수록 되찾는 데 오래 걸립니다."
+      }
+    },
     {
       d: "2026-09-06",
       who: { en: "Jensen Huang", ja: "ジェンスン・ファン", ko: "젠슨 황" },
