@@ -21,7 +21,7 @@
 (function () {
   "use strict";
 
-  var UPDATED = "2026-10-14";
+  var UPDATED = "2026-10-18";
 
   var LABEL = {
     en: { updated: "Last updated", source: "Source", why: "Why a long-horizon holder should care", empty: "No entries yet." },
@@ -31,6 +31,40 @@
 
   /* d = date of the statement (YYYY-MM-DD), t = quote, why = this site's reading */
   var VOICES = [
+    {
+      d: "2026-10-15",
+      who: { en: "C.C. Wei", ja: "C.C. ウェイ(魏哲家)", ko: "C.C. 웨이" },
+      role: { en: "Chairman and CEO, TSMC", ja: "TSMC 会長兼CEO", ko: "TSMC 회장 겸 CEO" },
+      where: { en: "Q3 2026 earnings call", ja: "2026年第3四半期 決算説明会", ko: "2026년 3분기 실적 발표" },
+      url: "https://www.fool.com/earnings/call-transcripts/2026/10/15/tsmc-tsm-q3-2026-earnings-call-transcript/",
+      t: {
+        en: "The demand actually is still far above our capability today to supply.",
+        ja: "実のところ、需要はいまも当社の現在の供給能力を大きく上回っている。",
+        ko: "사실 수요는 여전히 오늘날 우리의 공급 능력을 크게 웃돌고 있다."
+      },
+      why: {
+        en: "Set it beside the Nvidia entry of 23 September below, where the buyer of these chips said supply and demand will one day invert. Here the maker says that day has not come. Both can be true. When asked on the same call how TSMC avoids overbuilding, Wei listed what it watches, including its customers' spending and power supply, rather than saying the risk was absent. A shortage is the moment capacity gets ordered, and capacity ordered in a shortage is what arrives after it.",
+        ja: "下の9月23日のNvidiaの項目と並べて読んでください。チップの買い手はいつか需給が逆転すると言い、ここでは作り手がその日はまだ来ていないと言っています。どちらも成り立ちます。同じ説明会で過剰投資をどう避けるかと問われたウェイ氏は、リスクがないとは言わず、顧客の設備投資や電力供給など注視している項目を挙げました。品不足は設備が発注される瞬間であり、品不足のさなかに発注された設備は、品不足が終わった後に届きます。",
+        ko: "아래 9월 23일 엔비디아 항목과 나란히 읽으십시오. 칩을 사는 쪽은 언젠가 수급이 뒤집힌다고 했고, 여기서 만드는 쪽은 그날이 아직 오지 않았다고 말합니다. 둘 다 사실일 수 있습니다. 같은 실적 발표에서 과잉 투자를 어떻게 피하느냐는 질문에 웨이는 위험이 없다고 하지 않고, 고객의 설비투자와 전력 공급 등 지켜보는 항목을 열거했습니다. 품귀는 설비가 발주되는 순간이고, 품귀 속에 발주된 설비는 품귀가 끝난 뒤에 도착합니다."
+      }
+    },
+    {
+      d: "2026-10-14",
+      who: { en: "Christophe Fouquet", ja: "クリストフ・フーケ", ko: "크리스토프 푸케" },
+      role: { en: "CEO, ASML", ja: "ASML CEO", ko: "ASML CEO" },
+      where: { en: "Q3 2026 earnings call", ja: "2026年第3四半期 決算説明会", ko: "2026년 3분기 실적 발표" },
+      url: "https://www.fool.com/earnings/call-transcripts/2026/10/14/asml-asml-q3-2026-earnings-call-transcript/",
+      t: {
+        en: "Customers are also expressing interest in placing orders for 2029 and even 2030.",
+        ja: "顧客は2029年、さらには2030年向けの発注にも関心を示している。",
+        ko: "고객들은 2029년, 심지어 2030년분 주문에도 관심을 보이고 있다."
+      },
+      why: {
+        en: "ASML makes the machines that make the chips, so it sits furthest upstream of anyone on this page, and its order book is where a change in plans shows first. Interest in orders four years out says chipmakers expect the build-out to last. It is still interest, not orders, and an order placed in a shortage can be cancelled in a glut. The thing to watch in later quarters is whether that interest turns into bookings.",
+        ja: "ASMLはチップを作る装置を作る会社で、このページの誰よりも上流にいます。計画の変化が最初に表れるのはこの会社の受注です。4年先の発注への関心は、半導体メーカーがこの建設が続くと見ていることを示します。ただしそれはまだ関心であって受注ではなく、品不足のときに出された注文は供給過剰になれば取り消されることもあります。今後の四半期で見るべきは、その関心が実際の受注に変わるかどうかです。",
+        ko: "ASML은 칩을 만드는 장비를 만드는 회사로, 이 페이지의 누구보다 상류에 있습니다. 계획의 변화가 가장 먼저 드러나는 곳이 이 회사의 수주입니다. 4년 뒤 주문에 대한 관심은 반도체 업체들이 이 건설이 계속될 것으로 본다는 뜻입니다. 다만 아직은 관심일 뿐 주문이 아니며, 품귀 때 낸 주문은 공급 과잉이 오면 취소될 수도 있습니다. 앞으로의 분기에서 지켜볼 것은 그 관심이 실제 수주로 바뀌는지입니다."
+      }
+    },
     {
       d: "2026-10-13",
       who: { en: "Elon Musk", ja: "イーロン・マスク", ko: "일론 머스크" },
