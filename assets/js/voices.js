@@ -21,7 +21,7 @@
 (function () {
   "use strict";
 
-  var UPDATED = "2026-10-18";
+  var UPDATED = "2026-10-21";
 
   var LABEL = {
     en: { updated: "Last updated", source: "Source", why: "Why a long-horizon holder should care", empty: "No entries yet." },
@@ -31,6 +31,23 @@
 
   /* d = date of the statement (YYYY-MM-DD), t = quote, why = this site's reading */
   var VOICES = [
+    {
+      d: "2026-10-21",
+      who: { en: "Tim Archer", ja: "ティム・アーチャー", ko: "팀 아처" },
+      role: { en: "CEO, Lam Research", ja: "ラムリサーチ CEO", ko: "램리서치 CEO" },
+      where: { en: "Earnings call, quarter ended September 2026", ja: "2026年9月期四半期 決算説明会", ko: "2026년 9월 분기 실적 발표" },
+      url: "https://www.investing.com/news/transcripts/earnings-call-transcript-lam-research-tops-q1-2026-estimates-shares-fall-93CH-4964322",
+      t: {
+        en: "Our preliminary 2027 WFE outlook is for more than $200 billion of spending.",
+        ja: "2027年のWFE(ウエハー製造装置)市場の暫定見通しは、2,000億ドル超の支出だ。",
+        ko: "2027년 WFE(웨이퍼 제조 장비) 시장에 대한 잠정 전망은 2,000억 달러 이상의 지출이다."
+      },
+      why: {
+        en: "This is the spending on chipmaking machines across the whole industry, up from the mid-$150 billions he expects for this year. It is the ASML and TSMC entries below turned into a number. A step that size is a forecast of the build-out continuing, made by a company paid when it does. The shares fell after hours on the results even so, which is a reminder that a bigger market and a better return on a share bought today are different claims.",
+        ja: "これは業界全体の半導体製造装置への支出で、同氏が今年について見込む1,500億ドル台半ばから増える計算です。下のASMLとTSMCの項目を数字にしたものと言えます。これほどの伸びは建設が続くという予測であり、それが続けば収入を得る会社による予測です。それでも決算発表後の時間外取引で株価は下がりました。市場が大きくなることと、今日買った株のリターンが良くなることは別の主張だということを思い出させます。",
+        ko: "이것은 업계 전체의 반도체 제조 장비 지출로, 그가 올해로 예상하는 1,500억 달러대 중반에서 늘어나는 셈입니다. 아래 ASML과 TSMC 항목을 숫자로 바꾼 것이라 할 수 있습니다. 이만한 증가는 건설이 계속된다는 예측이고, 그렇게 되면 돈을 버는 회사의 예측입니다. 그런데도 실적 발표 뒤 시간외 거래에서 주가는 떨어졌습니다. 시장이 커지는 것과 오늘 산 주식의 수익률이 좋아지는 것은 서로 다른 주장이라는 점을 일깨워 줍니다."
+      }
+    },
     {
       d: "2026-10-15",
       who: { en: "C.C. Wei", ja: "C.C. ウェイ(魏哲家)", ko: "C.C. 웨이" },
