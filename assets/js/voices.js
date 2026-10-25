@@ -21,7 +21,7 @@
 (function () {
   "use strict";
 
-  var UPDATED = "2026-10-21";
+  var UPDATED = "2026-10-25";
 
   var LABEL = {
     en: { updated: "Last updated", source: "Source", why: "Why a long-horizon holder should care", empty: "No entries yet." },
@@ -31,6 +31,23 @@
 
   /* d = date of the statement (YYYY-MM-DD), t = quote, why = this site's reading */
   var VOICES = [
+    {
+      d: "2026-10-21",
+      who: { en: "Elon Musk", ja: "イーロン・マスク", ko: "일론 머스크" },
+      role: { en: "CEO, Tesla", ja: "Tesla CEO", ko: "테슬라 CEO" },
+      where: { en: "Q3 2026 earnings call, on Tesla's planned chip factory", ja: "2026年第3四半期 決算説明会(Teslaの半導体工場計画について)", ko: "2026년 3분기 실적 발표(테슬라의 반도체 공장 계획에 대해)" },
+      url: "https://www.fool.com/earnings/call-transcripts/2026/10/22/tesla-tsla-q3-2026-earnings-call-transcript/",
+      t: {
+        en: "It's certainly in the tens of billions for Terafab.",
+        ja: "Terafabには確実に数百億ドル規模がかかる。",
+        ko: "Terafab에는 분명히 수백억 달러 규모가 든다."
+      },
+      why: {
+        en: "Eight days after warning on X that raising money for complex hardware is not the same as building it (below), the same person put a price on building it himself. On the same call he said the first test chip would come \"around May or June\", just to see whether the factory can make one at all. A car company now plans to spend like a chipmaker. Its shareholders take on the long lead times and execution risk of fabrication, and the payoff, if any, comes years later.",
+        ja: "複雑なハードウェアのための資金調達と建設は別物だとXで警告した8日後(下)、同じ人物が自ら建設する費用に数字を付けました。同じ説明会では、最初の試作チップは工場がそもそもチップを作れるかを確かめるためのもので「5月か6月ごろ」になると述べています。自動車会社が半導体メーカーのような支出を計画しているということです。株主は半導体製造に伴う長いリードタイムと実行リスクを引き受けることになり、見返りがあるとしても何年も先です。",
+        ko: "복잡한 하드웨어를 위한 자금 조달과 실제 건설은 다르다고 X에서 경고한 지 8일 뒤(아래), 같은 인물이 직접 짓는 비용에 숫자를 붙였습니다. 같은 실적 발표에서 그는 첫 시험 칩은 공장이 칩을 만들 수 있는지부터 확인하기 위한 것으로 \"5월이나 6월쯤\" 나온다고 했습니다. 자동차 회사가 반도체 업체처럼 돈을 쓸 계획이라는 뜻입니다. 주주는 반도체 제조의 긴 리드타임과 실행 위험을 떠안게 되고, 보상이 있다 해도 몇 년 뒤입니다."
+      }
+    },
     {
       d: "2026-10-21",
       who: { en: "Tim Archer", ja: "ティム・アーチャー", ko: "팀 아처" },
