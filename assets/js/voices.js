@@ -21,7 +21,7 @@
 (function () {
   "use strict";
 
-  var UPDATED = "2026-09-12";
+  var UPDATED = "2026-10-28";
 
   var LABEL = {
     en: { updated: "Last updated", source: "Source", why: "Why a long-horizon holder should care", empty: "No entries yet." },
@@ -31,6 +31,159 @@
 
   /* d = date of the statement (YYYY-MM-DD), t = quote, why = this site's reading */
   var VOICES = [
+    {
+      d: "2026-10-28",
+      who: { en: "Anat Ashkenazi", ja: "アナト・アシュケナジ", ko: "아낫 아슈케나지" },
+      role: { en: "CFO, Alphabet", ja: "Alphabet CFO", ko: "알파벳 CFO" },
+      where: { en: "Q3 2026 earnings call", ja: "2026年第3四半期 決算説明会", ko: "2026년 3분기 실적 발표" },
+      url: "https://www.investing.com/news/transcripts/earnings-call-transcript-alphabet-q3-2026-profit-miss-sparks-10-afterhours-drop-93CH-4981037",
+      t: {
+        en: "We continue to expect our CapEx to increase significantly in 2027 and will provide further details on our Q4 call.",
+        ja: "2027年の設備投資は引き続き大幅に増加する見込みで、詳細は第4四半期の説明会でお知らせする。",
+        ko: "2027년 설비투자는 계속해서 크게 늘어날 것으로 예상하며, 자세한 내용은 4분기 실적 발표에서 알려 드리겠다."
+      },
+      why: {
+        en: "This year's spending is already guided at $195 to $205 billion, and the chief financial officer says next year's will be significantly higher. The shares fell about 10% after hours on a profit miss the same evening. This is the other side of the supplier entries below. Every dollar ASML, TSMC and Lam expect to receive is a dollar a company like this has to spend first, and its shareholders wait for the return.",
+        ja: "今年の設備投資はすでに1,950億〜2,050億ドルと示されており、CFOは来年はそれを大きく上回ると言っています。同じ夜、利益が予想に届かず株価は時間外で約10%下落しました。これは下にある供給側の項目の裏面です。ASML、TSMC、ラムリサーチが受け取ると見込む1ドルは、こうした会社が先に支払わなければならない1ドルであり、その株主はリターンを待つ側にいます。",
+        ko: "올해 설비투자는 이미 1,950억~2,050억 달러로 제시되어 있고, CFO는 내년은 그보다 크게 늘어난다고 말합니다. 같은 날 저녁 이익이 예상에 못 미치면서 주가는 시간외에서 약 10% 떨어졌습니다. 이것은 아래 공급자 항목들의 뒷면입니다. ASML, TSMC, 램리서치가 받을 것으로 기대하는 1달러는 이런 회사가 먼저 써야 하는 1달러이고, 그 주주들은 수익을 기다리는 쪽에 있습니다."
+      }
+    },
+    {
+      d: "2026-10-21",
+      who: { en: "Mark Zuckerberg", ja: "マーク・ザッカーバーグ", ko: "마크 저커버그" },
+      role: { en: "CEO, Meta", ja: "Meta CEO", ko: "메타 CEO" },
+      where: { en: "Q3 2026 earnings call", ja: "2026年第3四半期 決算説明会", ko: "2026년 3분기 실적 발표" },
+      url: "https://www.fool.com/earnings/call-transcripts/2026/10/21/meta-meta-q3-2026-earnings-call-transcript/",
+      t: {
+        en: "A fundamental feature of our business is that we have many good uses for this compute.",
+        ja: "当社の事業の根本的な特徴は、この計算資源に多くの有益な使い道があることだ。",
+        ko: "우리 사업의 근본적인 특징은 이 연산 자원을 쓸 좋은 곳이 많다는 점이다."
+      },
+      why: {
+        en: "This is the standard answer to the overbuilding question: if one use disappoints, the capacity moves to another. It is a reasonable argument and also an untested one at this scale. Meta guided $135 to $145 billion of spending for 2026 on the same call. Whether the other uses earn enough on that sum is something only later results can show.",
+        ja: "これは過剰投資の懸念に対する定番の答えです。ある用途が期待外れでも、別の用途に計算資源を回せるという主張です。筋の通った議論ですが、この規模ではまだ試されていません。Metaは同じ説明会で2026年の設備投資を1,350億〜1,450億ドルと示しました。別の用途がその金額に見合う稼ぎを生むかどうかは、今後の決算でしか分かりません。",
+        ko: "이것은 과잉 투자 우려에 대한 표준적인 답입니다. 한 용도가 기대에 못 미쳐도 다른 용도로 연산 자원을 돌릴 수 있다는 주장입니다. 합리적인 논리지만 이 규모에서는 아직 검증되지 않았습니다. 메타는 같은 실적 발표에서 2026년 설비투자를 1,350억~1,450억 달러로 제시했습니다. 다른 용도들이 그 금액에 걸맞은 수익을 낼지는 앞으로의 실적만이 보여 줄 수 있습니다."
+      }
+    },
+    {
+      d: "2026-10-21",
+      who: { en: "Elon Musk", ja: "イーロン・マスク", ko: "일론 머스크" },
+      role: { en: "CEO, Tesla", ja: "Tesla CEO", ko: "테슬라 CEO" },
+      where: { en: "Q3 2026 earnings call, on Tesla's planned chip factory", ja: "2026年第3四半期 決算説明会(Teslaの半導体工場計画について)", ko: "2026년 3분기 실적 발표(테슬라의 반도체 공장 계획에 대해)" },
+      url: "https://www.fool.com/earnings/call-transcripts/2026/10/22/tesla-tsla-q3-2026-earnings-call-transcript/",
+      t: {
+        en: "It's certainly in the tens of billions for Terafab.",
+        ja: "Terafabには確実に数百億ドル規模がかかる。",
+        ko: "Terafab에는 분명히 수백억 달러 규모가 든다."
+      },
+      why: {
+        en: "Eight days after warning on X that raising money for complex hardware is not the same as building it (below), the same person put a price on building it himself. On the same call he said the first test chip would come \"around May or June\", just to see whether the factory can make one at all. A car company now plans to spend like a chipmaker. Its shareholders take on the long lead times and execution risk of fabrication, and the payoff, if any, comes years later.",
+        ja: "複雑なハードウェアのための資金調達と建設は別物だとXで警告した8日後(下)、同じ人物が自ら建設する費用に数字を付けました。同じ説明会では、最初の試作チップは工場がそもそもチップを作れるかを確かめるためのもので「5月か6月ごろ」になると述べています。自動車会社が半導体メーカーのような支出を計画しているということです。株主は半導体製造に伴う長いリードタイムと実行リスクを引き受けることになり、見返りがあるとしても何年も先です。",
+        ko: "복잡한 하드웨어를 위한 자금 조달과 실제 건설은 다르다고 X에서 경고한 지 8일 뒤(아래), 같은 인물이 직접 짓는 비용에 숫자를 붙였습니다. 같은 실적 발표에서 그는 첫 시험 칩은 공장이 칩을 만들 수 있는지부터 확인하기 위한 것으로 \"5월이나 6월쯤\" 나온다고 했습니다. 자동차 회사가 반도체 업체처럼 돈을 쓸 계획이라는 뜻입니다. 주주는 반도체 제조의 긴 리드타임과 실행 위험을 떠안게 되고, 보상이 있다 해도 몇 년 뒤입니다."
+      }
+    },
+    {
+      d: "2026-10-21",
+      who: { en: "Tim Archer", ja: "ティム・アーチャー", ko: "팀 아처" },
+      role: { en: "CEO, Lam Research", ja: "ラムリサーチ CEO", ko: "램리서치 CEO" },
+      where: { en: "Earnings call, quarter ended September 2026", ja: "2026年9月期四半期 決算説明会", ko: "2026년 9월 분기 실적 발표" },
+      url: "https://www.investing.com/news/transcripts/earnings-call-transcript-lam-research-tops-q1-2026-estimates-shares-fall-93CH-4964322",
+      t: {
+        en: "Our preliminary 2027 WFE outlook is for more than $200 billion of spending.",
+        ja: "2027年のWFE(ウエハー製造装置)市場の暫定見通しは、2,000億ドル超の支出だ。",
+        ko: "2027년 WFE(웨이퍼 제조 장비) 시장에 대한 잠정 전망은 2,000억 달러 이상의 지출이다."
+      },
+      why: {
+        en: "This is the spending on chipmaking machines across the whole industry, up from the mid-$150 billions he expects for this year. It is the ASML and TSMC entries below turned into a number. A step that size is a forecast of the build-out continuing, made by a company paid when it does. The shares fell after hours on the results even so, which is a reminder that a bigger market and a better return on a share bought today are different claims.",
+        ja: "これは業界全体の半導体製造装置への支出で、同氏が今年について見込む1,500億ドル台半ばから増える計算です。下のASMLとTSMCの項目を数字にしたものと言えます。これほどの伸びは建設が続くという予測であり、それが続けば収入を得る会社による予測です。それでも決算発表後の時間外取引で株価は下がりました。市場が大きくなることと、今日買った株のリターンが良くなることは別の主張だということを思い出させます。",
+        ko: "이것은 업계 전체의 반도체 제조 장비 지출로, 그가 올해로 예상하는 1,500억 달러대 중반에서 늘어나는 셈입니다. 아래 ASML과 TSMC 항목을 숫자로 바꾼 것이라 할 수 있습니다. 이만한 증가는 건설이 계속된다는 예측이고, 그렇게 되면 돈을 버는 회사의 예측입니다. 그런데도 실적 발표 뒤 시간외 거래에서 주가는 떨어졌습니다. 시장이 커지는 것과 오늘 산 주식의 수익률이 좋아지는 것은 서로 다른 주장이라는 점을 일깨워 줍니다."
+      }
+    },
+    {
+      d: "2026-10-15",
+      who: { en: "C.C. Wei", ja: "C.C. ウェイ(魏哲家)", ko: "C.C. 웨이" },
+      role: { en: "Chairman and CEO, TSMC", ja: "TSMC 会長兼CEO", ko: "TSMC 회장 겸 CEO" },
+      where: { en: "Q3 2026 earnings call", ja: "2026年第3四半期 決算説明会", ko: "2026년 3분기 실적 발표" },
+      url: "https://www.fool.com/earnings/call-transcripts/2026/10/15/tsmc-tsm-q3-2026-earnings-call-transcript/",
+      t: {
+        en: "The demand actually is still far above our capability today to supply.",
+        ja: "実のところ、需要はいまも当社の現在の供給能力を大きく上回っている。",
+        ko: "사실 수요는 여전히 오늘날 우리의 공급 능력을 크게 웃돌고 있다."
+      },
+      why: {
+        en: "Set it beside the Nvidia entry of 23 September below, where the buyer of these chips said supply and demand will one day invert. Here the maker says that day has not come. Both can be true. When asked on the same call how TSMC avoids overbuilding, Wei listed what it watches, including its customers' spending and power supply, rather than saying the risk was absent. A shortage is the moment capacity gets ordered, and capacity ordered in a shortage is what arrives after it.",
+        ja: "下の9月23日のNvidiaの項目と並べて読んでください。チップの買い手はいつか需給が逆転すると言い、ここでは作り手がその日はまだ来ていないと言っています。どちらも成り立ちます。同じ説明会で過剰投資をどう避けるかと問われたウェイ氏は、リスクがないとは言わず、顧客の設備投資や電力供給など注視している項目を挙げました。品不足は設備が発注される瞬間であり、品不足のさなかに発注された設備は、品不足が終わった後に届きます。",
+        ko: "아래 9월 23일 엔비디아 항목과 나란히 읽으십시오. 칩을 사는 쪽은 언젠가 수급이 뒤집힌다고 했고, 여기서 만드는 쪽은 그날이 아직 오지 않았다고 말합니다. 둘 다 사실일 수 있습니다. 같은 실적 발표에서 과잉 투자를 어떻게 피하느냐는 질문에 웨이는 위험이 없다고 하지 않고, 고객의 설비투자와 전력 공급 등 지켜보는 항목을 열거했습니다. 품귀는 설비가 발주되는 순간이고, 품귀 속에 발주된 설비는 품귀가 끝난 뒤에 도착합니다."
+      }
+    },
+    {
+      d: "2026-10-14",
+      who: { en: "Christophe Fouquet", ja: "クリストフ・フーケ", ko: "크리스토프 푸케" },
+      role: { en: "CEO, ASML", ja: "ASML CEO", ko: "ASML CEO" },
+      where: { en: "Q3 2026 earnings call", ja: "2026年第3四半期 決算説明会", ko: "2026년 3분기 실적 발표" },
+      url: "https://www.fool.com/earnings/call-transcripts/2026/10/14/asml-asml-q3-2026-earnings-call-transcript/",
+      t: {
+        en: "Customers are also expressing interest in placing orders for 2029 and even 2030.",
+        ja: "顧客は2029年、さらには2030年向けの発注にも関心を示している。",
+        ko: "고객들은 2029년, 심지어 2030년분 주문에도 관심을 보이고 있다."
+      },
+      why: {
+        en: "ASML makes the machines that make the chips, so it sits furthest upstream of anyone on this page, and its order book is where a change in plans shows first. Interest in orders four years out says chipmakers expect the build-out to last. It is still interest, not orders, and an order placed in a shortage can be cancelled in a glut. The thing to watch in later quarters is whether that interest turns into bookings.",
+        ja: "ASMLはチップを作る装置を作る会社で、このページの誰よりも上流にいます。計画の変化が最初に表れるのはこの会社の受注です。4年先の発注への関心は、半導体メーカーがこの建設が続くと見ていることを示します。ただしそれはまだ関心であって受注ではなく、品不足のときに出された注文は供給過剰になれば取り消されることもあります。今後の四半期で見るべきは、その関心が実際の受注に変わるかどうかです。",
+        ko: "ASML은 칩을 만드는 장비를 만드는 회사로, 이 페이지의 누구보다 상류에 있습니다. 계획의 변화가 가장 먼저 드러나는 곳이 이 회사의 수주입니다. 4년 뒤 주문에 대한 관심은 반도체 업체들이 이 건설이 계속될 것으로 본다는 뜻입니다. 다만 아직은 관심일 뿐 주문이 아니며, 품귀 때 낸 주문은 공급 과잉이 오면 취소될 수도 있습니다. 앞으로의 분기에서 지켜볼 것은 그 관심이 실제 수주로 바뀌는지입니다."
+      }
+    },
+    {
+      d: "2026-10-13",
+      who: { en: "Elon Musk", ja: "イーロン・マスク", ko: "일론 머스크" },
+      role: { en: "CEO, SpaceX and Tesla", ja: "SpaceX・Tesla CEO", ko: "SpaceX·테슬라 CEO" },
+      where: { en: "Post on X", ja: "X への投稿", ko: "X 게시물" },
+      url: "https://www.benzinga.com/markets/tech/26/10/62347725/elon-musk-has-a-warning-for-ai-data-center-investors-says-funding-is-only-half-the-battle-spacex-has-a-super-cracked-team-even-we-find-it-very-difficult",
+      t: {
+        en: "Getting money to build complex hardware systems with massive power, cooling & networking is not the same as doing it.",
+        ja: "巨大な電力・冷却・ネットワークを伴う複雑なハードウェアシステムを作るための資金を得ることは、それを実際にやり遂げることとは違う。",
+        ko: "막대한 전력·냉각·네트워킹이 필요한 복잡한 하드웨어 시스템을 짓기 위해 돈을 마련하는 것은, 그것을 실제로 해내는 것과 같지 않다."
+      },
+      why: {
+        en: "A builder's warning to the people funding the build. Money raised for a data centre is a promise; the electricity, cooling and equipment that make it earn are a separate test, passed or failed years later. For someone holding for decades, the useful habit is to judge this build-out by what is switched on and earning, not by what has been announced or financed.",
+        ja: "建設する側から、資金を出す側への警告です。データセンターのために集めた資金は約束にすぎず、それを稼ぐ設備にする電力・冷却・機器は別の試験で、その合否が出るのは何年も後です。数十年単位で保有する人にとって役に立つのは、この建設を「発表された額」や「調達された額」ではなく、「実際に稼働して稼いでいるもの」で判断する習慣です。",
+        ko: "짓는 쪽이 돈을 대는 쪽에 보내는 경고입니다. 데이터센터를 위해 모은 돈은 약속일 뿐이고, 그것을 돈 버는 설비로 만드는 전력·냉각·장비는 별개의 시험이며 그 결과는 몇 년 뒤에야 나옵니다. 수십 년을 보유하는 사람에게 유용한 습관은 이 건설을 '발표된 금액'이나 '조달된 금액'이 아니라 '실제로 가동되어 돈을 벌고 있는 것'으로 판단하는 것입니다."
+      }
+    },
+    {
+      d: "2026-10-06",
+      who: { en: "Lisa Su", ja: "リサ・スー", ko: "리사 수" },
+      role: { en: "CEO, AMD", ja: "AMD CEO", ko: "AMD CEO" },
+      where: { en: "Speaking to reporters in Taipei", ja: "台北での記者団への発言", ko: "타이베이 기자단 발언" },
+      url: "https://www.benzinga.com/markets/prediction-markets/26/10/62190764/amd-ai-demand-lisa-su-supply",
+      t: {
+        en: "We're going to substantially increase our supply in 2027, but we can definitely use more.",
+        ja: "2027年には供給を大幅に増やすが、それでも、もっとあっても確実に使い切れる。",
+        ko: "2027년에는 공급을 대폭 늘리겠지만, 그보다 더 있어도 분명히 다 쓸 수 있다."
+      },
+      why: {
+        en: "Two months after saying demand was running above expectations (below), the constraint she names is supply, and the fix she names has a year on it. When the limit is how fast factories, memory and packaging can be built, the businesses that build them hold the scarce thing for now. Scarcity of that kind is also what invites the capacity that ends it, which is the other half of the next entry.",
+        ja: "需要が想定を上回っていると語った2か月後(下)、彼女が挙げた制約は供給で、その解決策には「2027年」という年が付いています。上限が工場・メモリ・パッケージングを建てる速さで決まるなら、今のところ希少なものを握っているのはそれを建てる側です。ただし、そうした希少性こそが、それを終わらせる設備投資を呼び込みます。それが次の項目のもう半分です。",
+        ko: "수요가 예상을 웃돈다고 말한 지 두 달 뒤(아래), 그가 든 제약은 공급이고 해법에는 '2027년'이라는 연도가 붙어 있습니다. 한계가 공장·메모리·패키징을 짓는 속도로 정해진다면, 지금 희소한 것을 쥐고 있는 쪽은 그것을 짓는 기업입니다. 다만 그런 희소성이야말로 그것을 끝낼 설비 투자를 불러들입니다. 그것이 다음 항목의 나머지 절반입니다."
+      }
+    },
+    {
+      d: "2026-09-23",
+      who: { en: "Jensen Huang", ja: "ジェンスン・ファン", ko: "젠슨 황" },
+      role: { en: "CEO, Nvidia", ja: "Nvidia CEO", ko: "엔비디아 CEO" },
+      where: { en: "The Ezra Klein Show (podcast)", ja: "ポッドキャスト「The Ezra Klein Show」", ko: "팟캐스트 'The Ezra Klein Show'" },
+      url: "https://finance.yahoo.com/technology/ai/articles/jensen-huang-says-ai-boom-132740720.html",
+      t: {
+        en: "At some point demand and supply will be inverted again. That's just the nature of markets.",
+        ja: "いずれ需要と供給はまた逆転する。それが市場というものだ。",
+        ko: "언젠가 수요와 공급은 다시 뒤집힌다. 그게 시장의 본성이다."
+      },
+      why: {
+        en: "The rarest kind of statement on this page: the person with the most to lose from a downturn saying one will come. He put it two or three years out, and that timing is the part to check later. For someone holding for decades the date matters less than the shape. A shortage that turns into a glut is the ordinary cycle of every capital-intensive industry, and prices paid at the peak of the shortage are the ones that take longest to earn back.",
+        ja: "このページで最も珍しい種類の発言です。下降局面で最も失うものが大きい人物が、それは来ると言っている。彼はそれを2〜3年先としており、後で確かめるべきはその時期です。数十年保有する人にとっては、時期よりも形のほうが重要です。品不足が供給過剰に変わるのは、あらゆる資本集約型産業のごく普通の循環であり、品不足のピークで払った価格ほど、取り戻すのに時間がかかります。",
+        ko: "이 페이지에서 가장 드문 종류의 발언입니다. 하강 국면에서 잃을 것이 가장 많은 인물이 그것이 온다고 말하고 있습니다. 그는 그 시점을 2~3년 뒤로 잡았고, 나중에 확인할 것은 바로 그 시점입니다. 수십 년을 보유하는 사람에게는 시점보다 모양이 더 중요합니다. 품귀가 공급 과잉으로 바뀌는 것은 모든 자본집약 산업의 평범한 순환이며, 품귀의 정점에서 치른 가격일수록 되찾는 데 오래 걸립니다."
+      }
+    },
     {
       d: "2026-09-06",
       who: { en: "Jensen Huang", ja: "ジェンスン・ファン", ko: "젠슨 황" },
