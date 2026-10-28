@@ -60,9 +60,9 @@
         ko: "우리 사업의 근본적인 특징은 이 연산 자원을 쓸 좋은 곳이 많다는 점이다."
       },
       why: {
-        en: "This is the standard answer to the overbuilding question: if one use disappoints, the capacity moves to another, such as ranking feeds and ads. It is a reasonable argument and also an untested one at this scale. Meta guided $135 to $145 billion of spending for 2026 on the same call. Whether the other uses earn enough on that sum is something only later results can show.",
-        ja: "これは過剰投資の懸念に対する定番の答えです。ある用途が期待外れでも、フィードや広告の最適化など別の用途に計算資源を回せるという主張です。筋の通った議論ですが、この規模ではまだ試されていません。Metaは同じ説明会で2026年の設備投資を1,350億〜1,450億ドルと示しました。別の用途がその金額に見合う稼ぎを生むかどうかは、今後の決算でしか分かりません。",
-        ko: "이것은 과잉 투자 우려에 대한 표준적인 답입니다. 한 용도가 기대에 못 미쳐도 피드와 광고 최적화 같은 다른 용도로 연산 자원을 돌릴 수 있다는 주장입니다. 합리적인 논리지만 이 규모에서는 아직 검증되지 않았습니다. 메타는 같은 실적 발표에서 2026년 설비투자를 1,350억~1,450억 달러로 제시했습니다. 다른 용도들이 그 금액에 걸맞은 수익을 낼지는 앞으로의 실적만이 보여 줄 수 있습니다."
+        en: "This is the standard answer to the overbuilding question: if one use disappoints, the capacity moves to another. It is a reasonable argument and also an untested one at this scale. Meta guided $135 to $145 billion of spending for 2026 on the same call. Whether the other uses earn enough on that sum is something only later results can show.",
+        ja: "これは過剰投資の懸念に対する定番の答えです。ある用途が期待外れでも、別の用途に計算資源を回せるという主張です。筋の通った議論ですが、この規模ではまだ試されていません。Metaは同じ説明会で2026年の設備投資を1,350億〜1,450億ドルと示しました。別の用途がその金額に見合う稼ぎを生むかどうかは、今後の決算でしか分かりません。",
+        ko: "이것은 과잉 투자 우려에 대한 표준적인 답입니다. 한 용도가 기대에 못 미쳐도 다른 용도로 연산 자원을 돌릴 수 있다는 주장입니다. 합리적인 논리지만 이 규모에서는 아직 검증되지 않았습니다. 메타는 같은 실적 발표에서 2026년 설비투자를 1,350억~1,450억 달러로 제시했습니다. 다른 용도들이 그 금액에 걸맞은 수익을 낼지는 앞으로의 실적만이 보여 줄 수 있습니다."
       }
     },
     {
