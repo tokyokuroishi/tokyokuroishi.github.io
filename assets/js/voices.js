@@ -21,7 +21,7 @@
 (function () {
   "use strict";
 
-  var UPDATED = "2026-10-25";
+  var UPDATED = "2026-10-28";
 
   var LABEL = {
     en: { updated: "Last updated", source: "Source", why: "Why a long-horizon holder should care", empty: "No entries yet." },
@@ -31,6 +31,40 @@
 
   /* d = date of the statement (YYYY-MM-DD), t = quote, why = this site's reading */
   var VOICES = [
+    {
+      d: "2026-10-28",
+      who: { en: "Anat Ashkenazi", ja: "アナト・アシュケナジ", ko: "아낫 아슈케나지" },
+      role: { en: "CFO, Alphabet", ja: "Alphabet CFO", ko: "알파벳 CFO" },
+      where: { en: "Q3 2026 earnings call", ja: "2026年第3四半期 決算説明会", ko: "2026년 3분기 실적 발표" },
+      url: "https://www.investing.com/news/transcripts/earnings-call-transcript-alphabet-q3-2026-profit-miss-sparks-10-afterhours-drop-93CH-4981037",
+      t: {
+        en: "We continue to expect our CapEx to increase significantly in 2027 and will provide further details on our Q4 call.",
+        ja: "2027年の設備投資は引き続き大幅に増加する見込みで、詳細は第4四半期の説明会でお知らせする。",
+        ko: "2027년 설비투자는 계속해서 크게 늘어날 것으로 예상하며, 자세한 내용은 4분기 실적 발표에서 알려 드리겠다."
+      },
+      why: {
+        en: "This year's spending is already guided at $195 to $205 billion, and the chief financial officer says next year's will be significantly higher. The shares fell about 10% after hours on a profit miss the same evening. This is the other side of the supplier entries below. Every dollar ASML, TSMC and Lam expect to receive is a dollar a company like this has to spend first, and its shareholders wait for the return.",
+        ja: "今年の設備投資はすでに1,950億〜2,050億ドルと示されており、CFOは来年はそれを大きく上回ると言っています。同じ夜、利益が予想に届かず株価は時間外で約10%下落しました。これは下にある供給側の項目の裏面です。ASML、TSMC、ラムリサーチが受け取ると見込む1ドルは、こうした会社が先に支払わなければならない1ドルであり、その株主はリターンを待つ側にいます。",
+        ko: "올해 설비투자는 이미 1,950억~2,050억 달러로 제시되어 있고, CFO는 내년은 그보다 크게 늘어난다고 말합니다. 같은 날 저녁 이익이 예상에 못 미치면서 주가는 시간외에서 약 10% 떨어졌습니다. 이것은 아래 공급자 항목들의 뒷면입니다. ASML, TSMC, 램리서치가 받을 것으로 기대하는 1달러는 이런 회사가 먼저 써야 하는 1달러이고, 그 주주들은 수익을 기다리는 쪽에 있습니다."
+      }
+    },
+    {
+      d: "2026-10-21",
+      who: { en: "Mark Zuckerberg", ja: "マーク・ザッカーバーグ", ko: "마크 저커버그" },
+      role: { en: "CEO, Meta", ja: "Meta CEO", ko: "메타 CEO" },
+      where: { en: "Q3 2026 earnings call", ja: "2026年第3四半期 決算説明会", ko: "2026년 3분기 실적 발표" },
+      url: "https://www.fool.com/earnings/call-transcripts/2026/10/21/meta-meta-q3-2026-earnings-call-transcript/",
+      t: {
+        en: "A fundamental feature of our business is that we have many good uses for this compute.",
+        ja: "当社の事業の根本的な特徴は、この計算資源に多くの有益な使い道があることだ。",
+        ko: "우리 사업의 근본적인 특징은 이 연산 자원을 쓸 좋은 곳이 많다는 점이다."
+      },
+      why: {
+        en: "This is the standard answer to the overbuilding question: if one use disappoints, the capacity moves to another, such as ranking feeds and ads. It is a reasonable argument and also an untested one at this scale. Meta guided $135 to $145 billion of spending for 2026 on the same call. Whether the other uses earn enough on that sum is something only later results can show.",
+        ja: "これは過剰投資の懸念に対する定番の答えです。ある用途が期待外れでも、フィードや広告の最適化など別の用途に計算資源を回せるという主張です。筋の通った議論ですが、この規模ではまだ試されていません。Metaは同じ説明会で2026年の設備投資を1,350億〜1,450億ドルと示しました。別の用途がその金額に見合う稼ぎを生むかどうかは、今後の決算でしか分かりません。",
+        ko: "이것은 과잉 투자 우려에 대한 표준적인 답입니다. 한 용도가 기대에 못 미쳐도 피드와 광고 최적화 같은 다른 용도로 연산 자원을 돌릴 수 있다는 주장입니다. 합리적인 논리지만 이 규모에서는 아직 검증되지 않았습니다. 메타는 같은 실적 발표에서 2026년 설비투자를 1,350억~1,450억 달러로 제시했습니다. 다른 용도들이 그 금액에 걸맞은 수익을 낼지는 앞으로의 실적만이 보여 줄 수 있습니다."
+      }
+    },
     {
       d: "2026-10-21",
       who: { en: "Elon Musk", ja: "イーロン・マスク", ko: "일론 머스크" },
