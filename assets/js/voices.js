@@ -21,7 +21,7 @@
 (function () {
   "use strict";
 
-  var UPDATED = "2026-10-28";
+  var UPDATED = "2026-11-01";
 
   var LABEL = {
     en: { updated: "Last updated", source: "Source", why: "Why a long-horizon holder should care", empty: "No entries yet." },
@@ -31,6 +31,40 @@
 
   /* d = date of the statement (YYYY-MM-DD), t = quote, why = this site's reading */
   var VOICES = [
+    {
+      d: "2026-10-29",
+      who: { en: "Andy Jassy", ja: "アンディ・ジャシー", ko: "앤디 재시" },
+      role: { en: "CEO, Amazon", ja: "Amazon CEO", ko: "아마존 CEO" },
+      where: { en: "Q3 2026 earnings call", ja: "2026年第3四半期 決算説明会", ko: "2026년 3분기 실적 발표" },
+      url: "https://stockanalysis.com/stocks/amzn/transcripts/720308-q3-2026/",
+      t: {
+        en: "As we launch new generations of chips, demand for prior generations remains strong.",
+        ja: "新しい世代のチップを投入しても、前世代への需要は強いままだ。",
+        ko: "새로운 세대의 칩을 내놓아도 이전 세대에 대한 수요는 여전히 강하다."
+      },
+      why: {
+        en: "This answers the quietest question in the build-out: how fast the chips lose their value. If older chips stay in demand after newer ones arrive, the hundreds of billions spent on them earn for longer than a short replacement cycle would allow. If that changes, the same spending turns into faster write-downs. Amazon expects about $220 billion of cash capex this year. How long its older chips keep earning is one of the things to watch.",
+        ja: "これはこの建設で最も語られない問い、つまりチップがどれだけ速く価値を失うかへの答えです。新しいチップが出た後も古いチップに需要があるなら、それに費やした数千億ドルは、短い買い替えサイクルを前提にした場合より長く稼ぎます。その状況が変われば、同じ支出がより速い減損に変わります。Amazonは今年の設備投資(現金ベース)を約2,200億ドルと見込んでいます。古いチップがどれだけ長く稼ぎ続けるかは、注視すべき点の一つです。",
+        ko: "이것은 이 건설에서 가장 덜 이야기되는 질문, 즉 칩이 얼마나 빨리 가치를 잃는가에 대한 답입니다. 새 칩이 나온 뒤에도 옛 칩에 수요가 있다면, 거기에 쓴 수천억 달러는 짧은 교체 주기를 전제할 때보다 더 오래 돈을 법니다. 그 상황이 바뀌면 같은 지출이 더 빠른 상각으로 바뀝니다. 아마존은 올해 현금 기준 설비투자를 약 2,200억 달러로 예상합니다. 옛 칩이 얼마나 오래 돈을 버는지가 지켜볼 점 가운데 하나입니다."
+      }
+    },
+    {
+      d: "2026-10-28",
+      who: { en: "Satya Nadella", ja: "サティア・ナデラ", ko: "사티아 나델라" },
+      role: { en: "CEO, Microsoft", ja: "Microsoft CEO", ko: "마이크로소프트 CEO" },
+      where: { en: "FY2027 Q1 earnings call", ja: "2027年度第1四半期 決算説明会", ko: "FY2027 1분기 실적 발표" },
+      url: "https://www.microsoft.com/en-us/investor/events/fy-2027/earnings-fy-2027-q1",
+      t: {
+        en: "I have never been more confident in the long-term returns on our investments.",
+        ja: "当社の投資の長期的なリターンについて、これほど確信を持ったことはない。",
+        ko: "우리 투자의 장기 수익에 대해 이렇게 확신해 본 적이 없다."
+      },
+      why: {
+        en: "Confidence is not a return, and a chief executive rarely says anything else about his own spending. What makes the line worth keeping is its date. It sits on the record beside Alphabet's 10% fall the same evening (below). The long-term returns he names will show up, or not, in Microsoft's results over the coming years, and this page will still hold what was said before they were known.",
+        ja: "確信はリターンではなく、自社の支出について経営者がそれ以外のことを言うことはまずありません。この一言を残す価値はその日付にあります。同じ夜にAlphabetの株価が10%下落したこと(下)と並んで記録に残ります。彼が語る長期リターンが実現するかどうかは今後数年のMicrosoftの決算に表れ、このページには結果が分かる前に何が言われたかが残り続けます。",
+        ko: "확신은 수익이 아니며, 경영자가 자기 회사의 지출에 대해 다른 말을 하는 경우는 드뭅니다. 이 한마디를 남길 가치는 그 날짜에 있습니다. 같은 날 저녁 알파벳 주가가 10% 떨어진 일(아래)과 나란히 기록에 남습니다. 그가 말한 장기 수익이 실현될지는 앞으로 몇 년간 마이크로소프트의 실적에 드러날 것이고, 이 페이지에는 결과가 알려지기 전에 무엇이 말해졌는지가 남습니다."
+      }
+    },
     {
       d: "2026-10-28",
       who: { en: "Anat Ashkenazi", ja: "アナト・アシュケナジ", ko: "아낫 아슈케나지" },
