@@ -21,7 +21,7 @@
 (function () {
   "use strict";
 
-  var UPDATED = "2026-11-01";
+  var UPDATED = "2026-11-04";
 
   var LABEL = {
     en: { updated: "Last updated", source: "Source", why: "Why a long-horizon holder should care", empty: "No entries yet." },
@@ -31,6 +31,23 @@
 
   /* d = date of the statement (YYYY-MM-DD), t = quote, why = this site's reading */
   var VOICES = [
+    {
+      d: "2026-11-03",
+      who: { en: "Lisa Su", ja: "リサ・スー", ko: "리사 수" },
+      role: { en: "CEO, AMD", ja: "AMD CEO", ko: "AMD CEO" },
+      where: { en: "Q3 2026 earnings call", ja: "2026年第3四半期 決算説明会", ko: "2026년 3분기 실적 발표" },
+      url: "https://stockanalysis.com/stocks/amd/transcripts/724028-q3-2026/",
+      t: {
+        en: "We now expect Data Center segment revenue growth to accelerate in the fourth quarter and full-year segment revenue to more than double from 2025.",
+        ja: "データセンター部門の売上成長は第4四半期に加速し、通期の部門売上は2025年から2倍以上になると現在は見込んでいる。",
+        ko: "이제 데이터센터 부문 매출 성장이 4분기에 가속하고, 연간 부문 매출은 2025년보다 두 배 이상이 될 것으로 예상한다."
+      },
+      why: {
+        en: "The third entry from the same person on this page, and the tone has not cooled since August (below). On the same call, answering a question about personal computers, she said AMD plans for that market to be down by a double-digit percentage in 2027. One company, two businesses, opposite directions. A single headline about \"chip demand\" can hide that split, and a long holder of a broad fund owns both sides of it.",
+        ja: "このページで同じ人物の3つ目の発言で、8月(下)以来、その調子は冷めていません。同じ説明会でパソコンに関する質問に答えた際には、2027年のその市場は2桁%の縮小を前提に計画していると述べました。1つの会社に、逆方向に動く2つの事業があるということです。「半導体需要」という1つの見出しはその分かれ目を隠しがちで、幅広いファンドを長期で持つ人はその両側を持っています。",
+        ko: "이 페이지에서 같은 인물의 세 번째 발언이며, 8월(아래) 이후 그 어조는 식지 않았습니다. 같은 실적 발표에서 PC에 관한 질문에 답하면서 그는 2027년 그 시장이 두 자릿수 퍼센트 줄어드는 것을 전제로 계획하고 있다고 말했습니다. 한 회사 안에 반대 방향으로 움직이는 두 사업이 있다는 뜻입니다. '반도체 수요'라는 하나의 헤드라인은 그 갈림길을 가리기 쉽고, 폭넓은 펀드를 오래 보유하는 사람은 그 양쪽을 모두 갖고 있습니다."
+      }
+    },
     {
       d: "2026-10-29",
       who: { en: "Andy Jassy", ja: "アンディ・ジャシー", ko: "앤디 재시" },
