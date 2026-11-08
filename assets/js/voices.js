@@ -21,7 +21,7 @@
 (function () {
   "use strict";
 
-  var UPDATED = "2026-11-04";
+  var UPDATED = "2026-11-08";
 
   var LABEL = {
     en: { updated: "Last updated", source: "Source", why: "Why a long-horizon holder should care", empty: "No entries yet." },
@@ -31,6 +31,23 @@
 
   /* d = date of the statement (YYYY-MM-DD), t = quote, why = this site's reading */
   var VOICES = [
+    {
+      d: "2026-11-04",
+      who: { en: "Rene Haas", ja: "レネ・ハース", ko: "르네 하스" },
+      role: { en: "CEO, Arm", ja: "Arm CEO", ko: "Arm CEO" },
+      where: { en: "FY2027 Q2 earnings call", ja: "2027年度第2四半期 決算説明会", ko: "FY2027 2분기 실적 발표" },
+      url: "https://www.fool.com/earnings/call-transcripts/2026/11/05/arm-holdings-arm-q2-2027-earnings-call-transcript/",
+      t: {
+        en: "Power availability makes performance and efficiency even more important.",
+        ja: "電力が手に入るかどうかが、性能と効率をさらに重要にしている。",
+        ko: "전력을 확보할 수 있느냐가 성능과 효율을 더욱 중요하게 만든다."
+      },
+      why: {
+        en: "Several entries on this page point the same way: the limit on the build-out is shifting from chips to electricity. When power is the scarce input, the chip that does more work per watt wins, and so do the businesses that generate, move and manage the power. Haas runs a company that sells efficiency, so he has a reason to say this. The point still stands on its own: grids are built over decades, and that pace sets the pace for everything plugged into them.",
+        ja: "このページのいくつかの項目が同じ方向を指しています。建設の制約は半導体から電力へ移りつつあるということです。電力が希少な投入物になれば、1ワットあたりの仕事量が多いチップが勝ち、電力を作り、送り、管理する事業も勝ちます。ハース氏は効率を売る会社を率いているので、こう言う理由があります。それでもこの指摘自体は成り立ちます。送電網は数十年かけて作られ、その速さが、そこにつながるすべての速さを決めます。",
+        ko: "이 페이지의 여러 항목이 같은 방향을 가리킵니다. 건설의 제약이 반도체에서 전력으로 옮겨 가고 있다는 것입니다. 전력이 희소한 투입물이 되면 와트당 더 많은 일을 하는 칩이 이기고, 전력을 만들고 보내고 관리하는 사업도 이깁니다. 하스는 효율을 파는 회사를 이끌고 있으니 이렇게 말할 이유가 있습니다. 그래도 이 지적 자체는 유효합니다. 송전망은 수십 년에 걸쳐 지어지고, 그 속도가 거기에 연결되는 모든 것의 속도를 정합니다."
+      }
+    },
     {
       d: "2026-11-03",
       who: { en: "Lisa Su", ja: "リサ・スー", ko: "리사 수" },
