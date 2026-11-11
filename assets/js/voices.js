@@ -21,7 +21,7 @@
 (function () {
   "use strict";
 
-  var UPDATED = "2026-11-08";
+  var UPDATED = "2026-11-11";
 
   var LABEL = {
     en: { updated: "Last updated", source: "Source", why: "Why a long-horizon holder should care", empty: "No entries yet." },
@@ -31,6 +31,23 @@
 
   /* d = date of the statement (YYYY-MM-DD), t = quote, why = this site's reading */
   var VOICES = [
+    {
+      d: "2026-11-10",
+      who: { en: "Michael Intrator", ja: "マイケル・イントレーター", ko: "마이클 인트레이터" },
+      role: { en: "CEO, CoreWeave", ja: "CoreWeave CEO", ko: "코어위브 CEO" },
+      where: { en: "Q3 2026 earnings call", ja: "2026年第3四半期 決算説明会", ko: "2026년 3분기 실적 발표" },
+      url: "https://www.fool.com/earnings/call-transcripts/2026/11/10/coreweave-crwv-q3-2026-earnings-call-transcript/",
+      t: {
+        en: "Looking ahead, we will not use the unsecured debt market to fund our business at current yields.",
+        ja: "今後、現在の利回り水準では、無担保の債券市場を事業の資金調達に使うことはない。",
+        ko: "앞으로 현재 수익률 수준에서는 무담보 채권 시장을 사업 자금 조달에 쓰지 않을 것이다."
+      },
+      why: {
+        en: "Most of this page is about demand. This entry is about the price of money. CoreWeave rents out AI computing and borrows heavily to build it. On the same call it gave its average cost of debt as 7.9% and said it has ten times more qualified demand than capacity through 2027. A business can have more customers than it can serve and still be squeezed by what it pays to borrow. That is the warning in Musk's entry of 13 October (below), and here it shows up in a lender's terms.",
+        ja: "このページの大半は需要の話ですが、この項目はお金の値段の話です。CoreWeaveはAI向けの計算資源を貸し出す会社で、その設備を多額の借り入れで建てています。同じ説明会で、借入の平均コストは7.9%、2027年末までの適格な需要は供給能力の10倍あると述べました。対応しきれないほど顧客がいても、借入のコストに締め付けられることはあります。10月13日のマスク氏の項目(下)の警告が、ここでは貸し手の条件という形で表れています。",
+        ko: "이 페이지 대부분은 수요 이야기지만, 이 항목은 돈의 가격에 관한 것입니다. 코어위브는 AI용 연산 자원을 빌려주는 회사이고, 그 설비를 큰 차입으로 짓습니다. 같은 실적 발표에서 평균 차입 비용은 7.9%이고 2027년 말까지의 적격 수요가 공급 능력의 10배라고 밝혔습니다. 감당하지 못할 만큼 고객이 많아도 빌리는 비용에 짓눌릴 수 있습니다. 10월 13일 머스크 항목(아래)의 경고가 여기서는 대출 조건의 형태로 나타납니다."
+      }
+    },
     {
       d: "2026-11-04",
       who: { en: "Rene Haas", ja: "レネ・ハース", ko: "르네 하스" },
