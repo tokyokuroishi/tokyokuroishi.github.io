@@ -43,9 +43,9 @@
         ko: "오늘 우리가 보는 수요를 감안하면 이 데이터센터들은 지어질 것이라고 생각한다."
       },
       why: {
-        en: "Note the reasoning: today's demand is the evidence offered for buildings that will open in 2028 and later. That is how every capital cycle looks from the inside. Each forecast rests on current orders, and nobody in the chain is paid to doubt them. On the same call he acknowledged \"a lot of political dynamics\" around data centres. For a long holder, the useful exercise is to keep this line and compare it in 2028 with what was actually switched on.",
-        ja: "論理に注目してください。2028年以降に稼働する建物の根拠として示されているのは、今日の需要です。設備投資のサイクルは、内側からはいつもこう見えます。どの予測も現在の受注に基づいており、その連鎖の中に疑うことで報酬を得る人はいません。同じ説明会で彼は、データセンターをめぐって「多くの政治的な力学」があることも認めました。長期保有者にとって有益なのは、この一言を残しておき、2028年に実際に何が稼働したかと比べることです。",
-        ko: "논리에 주목하십시오. 2028년 이후 가동될 건물의 근거로 제시된 것은 오늘의 수요입니다. 설비투자 사이클은 안에서 보면 늘 이렇게 보입니다. 모든 예측이 현재의 주문에 기대고 있고, 그 사슬 안에서 의심하는 것으로 보수를 받는 사람은 없습니다. 같은 실적 발표에서 그는 데이터센터를 둘러싼 \"많은 정치적 역학\"도 인정했습니다. 장기 보유자에게 유용한 것은 이 한마디를 남겨 두었다가 2028년에 실제로 무엇이 가동됐는지와 비교하는 일입니다."
+        en: "Note the reasoning: today's demand is the evidence offered for buildings that will open in 2028 and later. That is how every capital cycle looks from the inside. Each forecast rests on current orders, and the companies giving them are paid when those orders hold. On the same call he acknowledged \"a lot of political dynamics\" around data centres. For a long holder, the useful exercise is to keep this line and compare it in 2028 with what was actually switched on.",
+        ja: "論理に注目してください。2028年以降に稼働する建物の根拠として示されているのは、今日の需要です。設備投資のサイクルは、内側からはいつもこう見えます。どの予測も現在の受注に基づいており、予測を出す会社は、その受注が続くことで収入を得ます。同じ説明会で彼は、データセンターをめぐって「多くの政治的な力学」があることも認めました。長期保有者にとって有益なのは、この一言を残しておき、2028年に実際に何が稼働したかと比べることです。",
+        ko: "논리에 주목하십시오. 2028년 이후 가동될 건물의 근거로 제시된 것은 오늘의 수요입니다. 설비투자 사이클은 안에서 보면 늘 이렇게 보입니다. 모든 예측이 현재의 주문에 기대고 있고, 예측을 내놓는 회사는 그 주문이 이어질 때 돈을 법니다. 같은 실적 발표에서 그는 데이터센터를 둘러싼 \"많은 정치적 역학\"도 인정했습니다. 장기 보유자에게 유용한 것은 이 한마디를 남겨 두었다가 2028년에 실제로 무엇이 가동됐는지와 비교하는 일입니다."
       }
     },
     {
