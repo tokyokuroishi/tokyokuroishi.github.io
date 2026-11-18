@@ -21,7 +21,7 @@
 (function () {
   "use strict";
 
-  var UPDATED = "2026-11-15";
+  var UPDATED = "2026-11-18";
 
   var LABEL = {
     en: { updated: "Last updated", source: "Source", why: "Why a long-horizon holder should care", empty: "No entries yet." },
@@ -31,6 +31,23 @@
 
   /* d = date of the statement (YYYY-MM-DD), t = quote, why = this site's reading */
   var VOICES = [
+    {
+      d: "2026-11-17",
+      who: { en: "Colette Kress", ja: "コレット・クレス", ko: "콜레트 크레스" },
+      role: { en: "Interim CEO and CFO, Nvidia", ja: "Nvidia 暫定CEO兼CFO", ko: "엔비디아 임시 CEO 겸 CFO" },
+      where: { en: "Q3 FY2027 earnings call", ja: "2027年度第3四半期 決算説明会", ko: "FY2027 3분기 실적 발표" },
+      url: "https://www.fool.com/earnings/call-transcripts/2026/11/18/nvidia-nvda-q3-2027-earnings-call-transcript/",
+      t: {
+        en: "Our demand is accelerating. Our supply is growing.",
+        ja: "当社の需要は加速している。供給も増えている。",
+        ko: "우리의 수요는 가속하고 있다. 공급도 늘고 있다."
+      },
+      why: {
+        en: "The first Nvidia call without Jensen Huang, who resigned days earlier; the chairman opened the call by saying so. The three Huang entries below stay as they were, dated to when he said them. The message did not change with the speaker. For a long holder that is the useful part: a business this size runs on contracts and supply chains that do not turn over with one person. Whether supply growing to meet demand also brings the inversion he predicted on 23 September is the thing to watch.",
+        ja: "ジェンスン・ファン氏が数日前に辞任してから初めてのNvidiaの決算説明会で、会長が冒頭でそのことを伝えました。下にあるファン氏の3つの項目は、発言した日付のまま残しています。話し手が変わってもメッセージは変わりませんでした。長期保有者にとって有益なのはそこです。この規模の事業は、1人の交代では入れ替わらない契約とサプライチェーンで動いています。供給が需要に追いつくことが、同氏が9月23日に予測した需給の逆転につながるかどうかが、注視すべき点です。",
+        ko: "젠슨 황이 며칠 전 사임한 뒤 처음 열린 엔비디아 실적 발표로, 의장이 첫머리에서 이를 알렸습니다. 아래에 있는 황의 세 항목은 그가 말한 날짜 그대로 둡니다. 말하는 사람이 바뀌어도 메시지는 바뀌지 않았습니다. 장기 보유자에게 유용한 점이 바로 그것입니다. 이 규모의 사업은 한 사람이 바뀐다고 뒤바뀌지 않는 계약과 공급망으로 움직입니다. 공급이 수요를 따라잡는 것이 그가 9월 23일에 예측한 수급 역전으로 이어질지가 지켜볼 점입니다."
+      }
+    },
     {
       d: "2026-11-12",
       who: { en: "Chuck Robbins", ja: "チャック・ロビンス", ko: "척 로빈스" },
