@@ -21,7 +21,7 @@
 (function () {
   "use strict";
 
-  var UPDATED = "2026-11-18";
+  var UPDATED = "2026-11-25";
 
   var LABEL = {
     en: { updated: "Last updated", source: "Source", why: "Why a long-horizon holder should care", empty: "No entries yet." },
@@ -31,6 +31,23 @@
 
   /* d = date of the statement (YYYY-MM-DD), t = quote, why = this site's reading */
   var VOICES = [
+    {
+      d: "2026-11-24",
+      who: { en: "Jeff Clarke", ja: "ジェフ・クラーク", ko: "제프 클라크" },
+      role: { en: "Vice Chairman and COO, Dell", ja: "Dell 副会長兼COO", ko: "델 부회장 겸 COO" },
+      where: { en: "Q3 FY2027 earnings call, prepared remarks", ja: "2027年度第3四半期 決算説明会(事前原稿)", ko: "FY2027 3분기 실적 발표(사전 원고)" },
+      url: "https://investors.delltechnologies.com/_assets/_ac8eb2555e5a0153972bd8852ad15163/delltechnologies/db/3595/34778/prepared_remarks/Q3_FY27_Prepared_Remarks.pdf",
+      t: {
+        en: "We exited the quarter with a record $132.3 billion of AI server backlog.",
+        ja: "当四半期は、過去最高となる1,323億ドルのAIサーバー受注残を抱えて終えた。",
+        ko: "이번 분기를 사상 최대인 1,323억 달러의 AI 서버 수주잔고로 마쳤다."
+      },
+      why: {
+        en: "A backlog is orders not yet delivered or paid for, so its value depends on who placed them. In the same remarks Dell named its customers as neoclouds, sovereigns and enterprises, and said it sometimes finances customers from purchase order until their clusters go live. Neoclouds are companies like CoreWeave (below), which said two weeks earlier what it pays to borrow. A record backlog is real demand. How much of it is paid for with borrowed money is the question that decides how it holds up if credit tightens.",
+        ja: "受注残とはまだ納品も支払いも済んでいない注文で、その価値は誰が発注したかで決まります。同じ原稿でDellは顧客をネオクラウド、政府系、企業と挙げ、発注からクラスター稼働までの間、顧客に融資することもあると述べました。ネオクラウドとは下のCoreWeaveのような会社で、同社は2週間前に借入コストについて語っていました。過去最高の受注残は本物の需要です。そのうちどれだけが借りたお金で支払われるのかが、信用が引き締まったときに持ちこたえるかどうかを決める問いです。",
+        ko: "수주잔고는 아직 납품도 결제도 되지 않은 주문이므로, 그 가치는 누가 주문했느냐에 달려 있습니다. 같은 원고에서 델은 고객을 네오클라우드, 정부 계열, 기업으로 꼽았고, 주문부터 클러스터 가동까지 고객에게 자금을 대기도 한다고 밝혔습니다. 네오클라우드는 아래 코어위브 같은 회사로, 이 회사는 2주 전 차입 비용에 대해 말했습니다. 사상 최대 수주잔고는 실제 수요입니다. 그중 얼마가 빌린 돈으로 치러지는지가 신용이 조여질 때 버틸 수 있는지를 가르는 질문입니다."
+      }
+    },
     {
       d: "2026-11-17",
       who: { en: "Colette Kress", ja: "コレット・クレス", ko: "콜레트 크레스" },
